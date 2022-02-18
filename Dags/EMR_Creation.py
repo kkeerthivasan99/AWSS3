@@ -5,6 +5,7 @@ from datetime import datetime
 region_name = 'us-east-1'
 
 
+
 def client(region_name):
     global emr
     emr = boto3.client('emr', region_name=region_name)
@@ -79,13 +80,14 @@ def wait_for_cluster_creation(cluster_id):
 def terminate_cluster(cluster_id):
     emr.terminate_job_flows(JobFlowIds=[cluster_id])
 
-
+# Creates an interactive scala spark session.
+# Python(kind=pyspark), R(kind=sparkr) and SQL(kind=sql) spark sessions can also be created by changing the value of kind.
 def create_spark_session(master_dns,datasetName,spark_config_path,dataset_path):
     # 8998 is the port on which the Livy server runs
     host = 'http://' + master_dns + ':8998'
     data = {'file':"s3://keerthilandingzone/Codes/AWS_Final_Code.py",
             'args':[datasetName, spark_config_path, dataset_path]
-
+    
     }
     headers = {'Content-Type': 'application/json'
               }
@@ -95,6 +97,7 @@ def create_spark_session(master_dns,datasetName,spark_config_path,dataset_path):
     return response.headers
 
 
+# Function to help track the progress of the scala code submitted to Apache Livy
 def track_statement_progress(master_dns, response_headers):
     statement_status = ''
     host = 'http://' + master_dns + ':8998'
