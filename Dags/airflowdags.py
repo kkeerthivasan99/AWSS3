@@ -67,7 +67,25 @@ def data_trf(**kwargs):
 
 
 def pre_validation(**kwargs):
-    pass
+    ti = kwargs['ti']
+    s3 = s3fs.S3FileSystem()
+    json_content = ti.xcom_pull(key='Bucket_locations')
+    key = ti.xcom_pull(key="data")['key']
+    land_zone = "s3://"+json_content['landing-bucket']+"/"+key
+    raw_zone ="s3://"+ json_content['raw-bucket']+"/"+key
+
+    df_landingzone = pq.ParquetDataset(land_zone, filesystem=s3).read_pandas().to_pandas()
+    df_rawzone = pq.ParquetDataset(raw_zone, filesystem=s3).read_pandas().to_pandas()
+
+    if df_rawzone[df_rawzone.columns[0]].count()!=0:
+        for raw_columnname in df_rawzone.columns:
+            if df_rawzone[raw_columnname].count() == df_landingzone[raw_columnname].count():
+                print("Count satisfied with", str(raw_columnname))
+            else:
+                print("Check mismatch", str(raw_columnname))
+
+    else:
+        print("No Data Available")
 
 
 
