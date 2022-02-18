@@ -12,6 +12,7 @@ import pandas as pd
 import pyarrow.parquet as pq
 
 
+
 def get_response(**kwargs):
     ti = kwargs['ti']
     data = dict()
