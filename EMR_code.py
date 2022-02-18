@@ -222,7 +222,7 @@ if __name__=='__main__':
     #The conversion of array to string 
     df = df.withColumn('location_source',concat_ws(',',col('location_source')))
     #Rounding the decimals to 7 points
-    if dataset_to_be_processed.lower()=='actives':
+    if dataset_to_be_processed.lower()=='actives' or 'test':
         df = transform_obj.convertDecimals(df,'user_latitude',7)
         df = transform_obj.convertDecimals(df,'user_longitude',7)
     else:
