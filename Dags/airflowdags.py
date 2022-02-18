@@ -1,4 +1,4 @@
-import EMR_Creation as emr
+import emrlib.emrplugin1 as emr
 import boto3
 import json
 from airflow import DAG
