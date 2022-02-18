@@ -5,7 +5,6 @@ from datetime import datetime
 region_name = 'us-east-1'
 
 
-
 def client(region_name):
     global emr
     emr = boto3.client('emr', region_name=region_name)
