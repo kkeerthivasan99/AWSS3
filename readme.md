@@ -67,11 +67,12 @@ The agent's behavior and configuration can be customized to fit your specific ne
 In our roadmap for future development, we plan to introduce a "Speech-to-Text" feature to enhance the capabilities of our Autonomous Marketing ROI Optimization Agent. This feature will allow users to interact with the agent using spoken language, opening up new possibilities for seamless communication and information retrieval.
 
 ## Team
+###**GPT 4 Squad**
 
-- **GPT 4 Squad**
-- Nadarajan R: [Your Website](mailto:nadarajan.r@tigeranalytics.com)
-- Kishore M: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
-- Keerthivasan K: [Keerthivasan K](mailto:keerthivasan.kan@tigeranalytics.com)
+**GPT 4 Squad**
+- [Nadarajan R](mailto:nadarajan.r@tigeranalytics.com)
+- [Kishore M](mailto:kishore.marudham@tigeranalytics.com)
+- [Keerthivasan K](mailto:keerthivasan.kan@tigeranalytics.com)
 
 Feel free to reach out if you have any questions or feedback!
 
