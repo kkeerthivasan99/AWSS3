@@ -60,7 +60,7 @@ To use the Autonomous Marketing ROI Optimization Agent:
 
 ## Configuration
 
-The agent's behavior and configuration can be customized to fit your specific needs. For customized configuration [system prompts](llm_base_prompts.py)needs to be changed accordingly. 
+The agent's behavior and configuration can be customized to fit your specific needs. For customized configuration [system prompts](llm_base_prompts.py) needs to be changed accordingly. 
 
 ## Future Scope
 
