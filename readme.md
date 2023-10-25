@@ -13,7 +13,7 @@
 
 ## Introduction
 
-In this event, we are building an Autonomous Agent to help CMO of the CPG companies to optimize their marketing spend ROI. Build an autonomous agent that can intelligently answer business questions. Key features that the agent should be able to handle:
+In this event, we are building an Autonomous Agent to help business stakeholders of the CPG companies to optimize their marketing spend ROI. Build an autonomous agent that can intelligently answer business questions. Key features that the agent should be able to handle:
 
 ## Key Features
 
