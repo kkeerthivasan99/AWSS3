@@ -1,7 +1,7 @@
 # Autonomous Marketing ROI Optimization Agent
 
-![Agent Image](![image](https://github.com/kkeerthivasan99/AWSS3/assets/97934217/e46f88dd-a132-4ded-a5e9-694bedcad6a1)
-)
+![Agent Image](https://github.com/kkeerthivasan99/AWSS3/assets/97934217/e46f88dd-a132-4ded-a5e9-694bedcad6a1)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
