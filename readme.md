@@ -69,7 +69,7 @@ In our roadmap for future development, we plan to introduce a "Speech-to-Text" f
 ## Team
 ###**GPT 4 Squad**
 
-**GPT 4 Squad**
+
 - [Nadarajan R](mailto:nadarajan.r@tigeranalytics.com)
 - [Kishore M](mailto:kishore.marudham@tigeranalytics.com)
 - [Keerthivasan K](mailto:keerthivasan.kan@tigeranalytics.com)
