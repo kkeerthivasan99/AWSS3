@@ -1,6 +1,6 @@
 # Autonomous Marketing ROI Optimization Agent
 
-![Agent Image](agent-image.png)
+![Agent Image](![image](https://github.com/kkeerthivasan99/AWSS3/assets/97934217/e9af8635-f84b-4901-af0b-6c3367b3a652))
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,31 +8,27 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author Information](#author-information)
+- [Team Name](#team-name)
 
 ## Introduction
 
-In this project, we have developed an Autonomous Agent that aims to assist Chief Marketing Officers (CMOs) of Consumer Packaged Goods (CPG) companies in optimizing their marketing spend Return on Investment (ROI). The agent is designed to intelligently answer various business questions and provide valuable insights to help CMOs achieve their key objectives effectively.
-
-As a CMO, making data-driven decisions is crucial to enhance marketing strategies and achieve better ROI. Our Autonomous Marketing ROI Optimization Agent has been engineered to handle a range of tasks that are fundamental to the CMO's role, including analyzing structured data, utilizing external or unstructured data sources, and leveraging machine learning models.
+In this event, we are building an Autonomous Agent to help CMO of the CPG companies to optimize their marketing spend ROI. Build an autonomous agent that can intelligently answer business questions. Key features that the agent should be able to handle:
 
 ## Key Features
 
 Our Autonomous Agent offers the following key features:
 
-1. **Generate Insights on CMO's Key Objectives:**
+1. **Generate Insights on the CMO’s key objective:**
    - The agent can provide valuable insights related to the CMO's primary objectives for marketing.
 
 2. **Task Breakdown:**
    - It can break down the CMO's objective into multiple tasks, categorizing them into three main buckets:
      - **Structured Data Analysis:**
        - The agent is capable of answering questions based on statistical analysis of structured data. It can provide insights from existing datasets and analytics.
-       
+
      - **External / Unstructured Data Utilization:**
        - It can answer questions by augmenting data from external sources or by considering context from prior conversations. This allows it to tap into a wealth of external information to provide answers.
-       
+
      - **ML Models Integration:**
        - For questions that require more complex analysis and predictive power, the agent can build and deploy machine learning models. It can handle tasks that demand model creation and application to provide informed responses.
 
@@ -63,19 +59,11 @@ To use the Autonomous Marketing ROI Optimization Agent:
 
 The agent's behavior and configuration can be customized to fit your specific needs. Detailed configuration instructions can be found in the [Configuration](config.md) document.
 
-## Contributing
+## Team Name
 
-We welcome contributions to enhance and expand the capabilities of our Autonomous Agent. If you'd like to contribute, please follow the guidelines outlined in the [Contributing](CONTRIBUTING.md) document.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
-
-## Author Information
-
-- **Your Name**
-- Website: [Your Website](https://www.yourwebsite.com)
-- Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
+- **GPT 4 Squad**
+- Website: [Your Team's Website](https://www.yourteamwebsite.com)
+- Twitter: [@YourTeamTwitterHandle](https://twitter.com/yourteamtwitterhandle)
 
 Feel free to reach out if you have any questions or feedback!
 
