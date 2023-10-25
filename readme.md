@@ -42,7 +42,7 @@ Our Autonomous Agent offers the following key features:
 2. Install the required dependencies:
     pip install -r requirements.txt
 
-3. Configure the agent settings by adding adding the environment variables to [Configuration](secrets.env).
+3. Configure the agent settings by adding the [environment variables](secrets.env).
 
 4. Now the agent is ready to use.
 
@@ -60,7 +60,7 @@ To use the Autonomous Marketing ROI Optimization Agent:
 
 ## Configuration
 
-The agent's behavior and configuration can be customized to fit your specific needs. For customized configuration system prompts needs to be changed accordingly [Configuration](llm_base_prompts.py).
+The agent's behavior and configuration can be customized to fit your specific needs. For customized configuration [system prompts](llm_base_prompts.py)needs to be changed accordingly. 
 
 ## Future Scope
 
