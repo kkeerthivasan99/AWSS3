@@ -9,7 +9,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Team Name](#team-name)
+- [Future Scope](#future-scope)
+- [Team](#team)
 
 ## Introduction
 
@@ -60,11 +61,11 @@ To use the Autonomous Marketing ROI Optimization Agent:
 
 The agent's behavior and configuration can be customized to fit your specific needs. Detailed configuration instructions can be found in the [Configuration](config.md) document.
 
-## Team Name
+## Team
 
 - **GPT 4 Squad**
-- Website: [Your Team's Website](https://www.yourteamwebsite.com)
-- Twitter: [@YourTeamTwitterHandle](https://twitter.com/yourteamtwitterhandle)
+- Website: [Your Website](https://www.yourwebsite.com)
+- Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
 
 Feel free to reach out if you have any questions or feedback!
 
