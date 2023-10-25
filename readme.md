@@ -20,19 +20,19 @@ In this event, we are building an Autonomous Agent to help business stakeholders
 
 Our Autonomous Agent offers the following key features:
 
-1. **Generate Insights on the CMO’s key objective:**
-   - The agent can provide valuable insights related to the CMO's primary objectives for marketing.
+1. **Generate Insights on the stakeholders key objective:**
+   - The agent can provide valuable insights related to the stakeholders primary objectives for marketing.
 
 2. **Task Breakdown:**
-   - It can break down the CMO's objective into multiple tasks, categorizing them into three main buckets:
+   - It can break down the stakeholder's objective into multiple tasks, categorizing them into three main buckets:
      - **Structured Data Analysis:**
-       - The agent is capable of answering questions based on statistical analysis of structured data. It can provide insights from existing datasets and analytics.
+       - The agent is capable of answering questions based on statistical analysis of structured data. It can provide insights from existing datasets without feeding the entire data to the LLM model.
 
      - **External / Unstructured Data Utilization:**
        - It can answer questions by augmenting data from external sources or by considering context from prior conversations. This allows it to tap into a wealth of external information to provide answers.
 
      - **ML Models Integration:**
-       - For questions that require more complex analysis and predictive power, the agent can build and deploy machine learning models. It can handle tasks that demand model creation and application to provide informed responses.
+       - For questions that require more complex analysis and predictive power, the agent can build machine learning models. It can handle tasks that demand model creation and application to provide informed responses.
 
 ## Installation
 
@@ -42,14 +42,15 @@ Our Autonomous Agent offers the following key features:
 2. Install the required dependencies:
     pip install -r requirements.txt
 
+3. Configure the agent settings by adding adding the environment variables to [Configuration](secrets.env).
 
-3. Configure the agent settings by following the instructions in the [Configuration](config.md) section.
+4. Now the agent is ready to use.
 
 ## Usage
 
 To use the Autonomous Marketing ROI Optimization Agent:
 
-1. Initialize the agent with the necessary data and context.
+1. Initialize the agent with the necessary data.
 
 2. Ask your business questions related to marketing ROI optimization.
 
@@ -59,13 +60,18 @@ To use the Autonomous Marketing ROI Optimization Agent:
 
 ## Configuration
 
-The agent's behavior and configuration can be customized to fit your specific needs. Detailed configuration instructions can be found in the [Configuration](config.md) document.
+The agent's behavior and configuration can be customized to fit your specific needs. For customized configuration system prompts needs to be changed accordingly [Configuration](llm_base_prompts.py).
+
+## Future Scope
+
+In our roadmap for future development, we plan to introduce a "Speech-to-Text" feature to enhance the capabilities of our Autonomous Marketing ROI Optimization Agent. This feature will allow users to interact with the agent using spoken language, opening up new possibilities for seamless communication and information retrieval.
 
 ## Team
 
 - **GPT 4 Squad**
-- Website: [Your Website](https://www.yourwebsite.com)
-- Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
+- Nadarajan R: [Your Website](mailto:nadarajan.r@tigeranalytics.com)
+- Kishore M: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
+- Keerthivasan K: [Keerthivasan K](mailto:keerthivasan.kan@tigeranalytics.com)
 
 Feel free to reach out if you have any questions or feedback!
 
