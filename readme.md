@@ -64,7 +64,13 @@ The agent's behavior and configuration can be customized to fit your specific ne
 
 ## Future Scope
 
-In our roadmap for future development, we plan to introduce a "Speech-to-Text" feature to enhance the capabilities of our Autonomous Marketing ROI Optimization Agent. This feature will allow users to interact with the agent using spoken language, opening up new possibilities for seamless communication and information retrieval.
+In our roadmap for future development, we have identified several areas for improvement and expansion:
+
+1. **Enhanced Memory Management:** We plan to improve the memory management of the Agent to optimize the storage and retrieval of conversational history. This will ensure a more efficient and effective understanding of past interactions, leading to better responses and insights.
+
+2. **Expanded Toolkit:** To cater to a wider range of specific tasks, we aim to incorporate additional tools into our Autonomous Marketing ROI Optimization Agent. These tools will empower the agent to address custom and specialized requirements, offering a broader spectrum of solutions to our users.
+
+We are committed to evolving and enhancing the capabilities of our agent to meet the dynamic demands of marketing professionals and data analysts.
 
 ## Team
 ### GPT 4 Squad
